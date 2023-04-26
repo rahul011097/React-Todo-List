@@ -1,0 +1,66 @@
+.App {
+  min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color:black;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+  overflow: hidden;
+}
+form{
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+}
+input{
+  width: 80%;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+ 
+
+}
+button{
+  border: none;
+  padding:10px 20px;
+  margin: 0px 5px;
+  border-radius: 10px;
+  background-color: violet;
+  font-size: 18px;
+}
+.list{
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+.listItem{
+  margin: 10px 0 ;
+  background-color: lightcyan;
+  padding: 10px 20px;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  border-radius: 20px;
+
+  
+}
+.listtext{
+  flex: 1;
+  color: black;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+
+ 
