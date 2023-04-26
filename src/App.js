@@ -23,7 +23,7 @@ if (editId) {     // this constion update our edit todo
   return;
 }
 
-if(todo!==''){
+if(todo!==''){ //condtional statement
   setAllTodo([{ id: `${todo}-${Date.now()}`, todo }, ...allTodo]);
   setTodo('');
 }
